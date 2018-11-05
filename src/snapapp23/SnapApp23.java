@@ -9,13 +9,15 @@ package snapapp23;
  *
  * @author test
  */
-public class SnapApp23 {
+public class SnapApp23 extends SnapFrame {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        SnapApp23 snap = new SnapApp23();
+        snap.setVisible(true);
     }
     
 }
